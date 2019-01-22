@@ -37,15 +37,15 @@ O Dart ainda pode compilar
 
 ![WebViews](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/webview.png)
 
-As WebViews renderizam paginas web e como o Javascript não se comunica diretamente com o 
-codigo nativo eles passam pela(Bridge) que // REVER ira se comunicar com o dominio nativo quando
-for necessario se comunicar com serviços nativos.
+As WebViews renderizam paginas web e executam o seu codigo HTML/CSS/Javascript e como o Javascript não se 
+comunica diretamente com o codigo nativo eles passam por uma ponte(Bridge) e é essa ponte que ira se comunicar com o 
+dominio nativo quando for necessario acessar algum dos serviços internos como por exemplo a Localização, 
+Bluetooth e etc. 
 
 ## Ponte(Bridge)
 ![Bridge](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/bridge.png)
-
-A Ponte recebe seu codigo Javascript e realiza a mudança de contexto chamando os serviços 
-nativos.
+A ponte trabalha de maneira semelhante a de WebSocket que envia e recebe informações e esse fluxo acontece de ambos os
+lados, enviando dados do seu codigo Javascript e recebendo dados da sua plataforma nativa.  
 
 ## Flutter vs React Native?
 
@@ -54,10 +54,14 @@ nativos.
 Com o React-native não é diferente, ele não se comunica diretamente com o dominio nativo.
 Mesmo que a maior parte do codigo do app seja escrito em Javascript a interface do usuario
 é 100% nativa.
+
 O react native trabalha em dois dominos diferentes o dominio nativo e o dominio do JS.
-E ambos os dominios são extremamente rapidos. O problema acontece quando esse lados precisam se
-comunicar, em casos em que são realizadas animações/transicoes esse reinos podem se comunicar ate 60 vezes
+E ambos os dominios são extremamente rapidos. O problema acontece quando esses lados precisam se
+comunicar. Quando acontece uma alteração na arvore de Widgets do seu App o Flutter envia essas alterações
+para a ponte que as envia para a plataforma nativa e ela acessa os seus Widgets nativos e re-cria a sua interface,
+em casos em que são realizadas animações/transicoes esse reinos podem se comunicar ate 60 vezes
 por segundos o que dificulta que o app rode a 60 fps e deixe seu app com uma fluidez legal.
+
 
 ## Como o Flutter funciona?
 
@@ -67,6 +71,17 @@ por segundos o que dificulta que o app rode a 60 fps e deixe seu app com uma flu
 O Flutter utiliza uma abordagem diferente, ele abandona a Brigde e utiliza uma linguagem 
 complilada chamada Dart que complila em AOT (ahead of time) codigo nativo para multiplas 
 plataformas.
+
+Ele trás para si a responsibalidade de analisar e renderizar os Widgets e envia pra ponte somente
+o que a GPU precisa para renderizar o seus Widgets.
+
+Comparado a outros frameworks o Flutter funciona de maneira totalmente diferente dos frameworks tradicionais
+para criação de aplicativos, ele funciona de maneira semelhante a de um mecanismo de jogo.
+
+O Flutter utiliza um mecanismo chamado Skia que recebe seus Widgets e envia as informações diretamente para o
+canvas da plataforma e a plataforma retorna os eventos conforme necessario.
+
+![Skia](https://github.com/gabrielferreir/flutter-introduce/raw/master/images/skia.png) 
 
 ## Fluter não utiliza os widgets OEM
 
@@ -80,15 +95,6 @@ ambas as plataformas estarão disponiveis para uso somente na versão mais recen
 
 ![OEM](https://github.com/gabrielferreir/flutter-introduce/raw/master/images/oem.png)
 
-#### Como o Flutter renderiza seus Widgets?
-
-Comparado a outros frameworks o Flutter funciona de maneira totalmente diferente dos frameworks tradicionais
-para criação de aplicativos, ele funciona de maneira semelhante a de um mecanismo de jogo.
-
-O Flutter utiliza um mecanismo chamado Skia que recebe seus Widgets e envia as informações diretamente para o
-canvas da plataforma e a plataforma retorna os eventos conforme necessario.
-
-![Skia](https://github.com/gabrielferreir/flutter-introduce/raw/master/images/skia.png)
 
 ## Biografia
 
