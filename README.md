@@ -12,19 +12,20 @@ e o lançamento da versão estavel(1.0.0) aconteceu no dia 4 de dezembro de 2018
     
 ![Galery](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/galery-animation.gif)
 ![Galery](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/galery-posse.gif)
-    
-    
-## Bridge
-![Bridge](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/bridge.png)
 
 ## Flutter vs WebViews(Ionic/Cordova)
 
 ![WebViews](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/webview.png)
 
-
 As WebViews renderizam paginas web e como o Javascript não se comunica diretamente com o 
 codigo nativo eles passam pela(Bridge) que // REVER ira se comunicar com o dominio nativo quando
 for necessario se comunicar com serviços nativos.
+
+## Ponte(Bridge)
+![Bridge](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/bridge.png)
+
+A Ponte recebe seu codigo Javascript e realiza a mudança de contexto chamando os serviços 
+nativos.
 
 ## Flutter vs React Native?
 
