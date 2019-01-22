@@ -11,7 +11,7 @@ e o lançamento da versão estavel(1.0.0) aconteceu no dia 4 de dezembro de 2018
     * Fluidez
 ## Flutter vs WebViews(Ionic/Cordova)
 
-[logo]: https://github.com/gabrielferreir/flutter-introduce/blob/master/images/webview.png "WebViews"
+![WebViews](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/webview.png)
 
 
 As WebViews renderizam paginas web e como o Javascript não se comunica diretamente com o 
@@ -20,7 +20,7 @@ for necessario se comunicar com serviços nativos.
 
 ## Flutter vs React Native?
 
-[logo]: https://github.com/gabrielferreir/flutter-introduce/blob/master/images/reactive-views.png "WebViews"
+![reactive-views](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/reactive-views.png)
 
 Com o React-native não é diferente, ele não se comunica diretamente com o dominio nativo.
 Mesmo que a maior parte do codigo do app seja escrito em Javascript a interface do usuario
@@ -32,7 +32,8 @@ por segundos o que dificulta que o app rode a 60 fps e deixe seu app com uma flu
 
 ## Flutter
 
-[logo]: https://github.com/gabrielferreir/flutter-introduce/blob/master/images/flutter.png "WebViews"
+![Flutter](https://github.com/gabrielferreir/flutter-introduce/raw/master/images/flutter.png)
+
 
 O Flutter utiliza uma abordagem diferente, ele abandona a Brigde e utiliza uma linguagem 
 complilada chamada Dart que complila em AOT (ahead of time) em codigo nativo para multiplas 
