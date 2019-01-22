@@ -11,11 +11,16 @@ e o lançamento da versão estavel(1.0.0) aconteceu no dia 4 de dezembro de 2018
     * Fluidez
 ## Flutter vs WebViews(Ionic/Cordova)
 
+[logo]: https://github.com/gabrielferreir/flutter-introduce/blob/master/images/webview.png "WebViews"
+
+
 As WebViews renderizam paginas web e como o Javascript não se comunica diretamente com o 
 codigo nativo eles passam pela(Bridge) que // REVER ira se comunicar com o dominio nativo quando
 for necessario se comunicar com serviços nativos.
 
 ## Flutter vs React Native?
+
+[logo]: https://github.com/gabrielferreir/flutter-introduce/blob/master/images/reactive-views.png "WebViews"
 
 Com o React-native não é diferente, ele não se comunica diretamente com o dominio nativo.
 Mesmo que a maior parte do codigo do app seja escrito em Javascript a interface do usuario
@@ -27,22 +32,18 @@ por segundos o que dificulta que o app rode a 60 fps e deixe seu app com uma flu
 
 ## Flutter
 
+[logo]: https://github.com/gabrielferreir/flutter-introduce/blob/master/images/flutter.png "WebViews"
+
 O Flutter utiliza uma abordagem diferente, ele abandona a Brigde e utiliza uma linguagem 
 complilada chamada Dart que complila em AOT (ahead of time) em codigo nativo para multiplas 
 plataformas
 
 
-	
-
-
-
-
-
 ## Biografia
 
-- https://flutter.io/docs/resources/technical-overview
-- https://hackernoon.com/whats-revolutionary-about-flutter-946915b09514
-- https://medium.com/47billion/flutter-how-does-it-works-6e4c73842e67
-- https://medium.com/the-andela-way/why-you-should-give-flutter-some-of-your-attention-22dd7e5cae42
-- https://hackernoon.com/flutter-5-reasons-why-you-may-love-it-55021fdbf1aa
-- https://medium.com/@talkol/performance-limitations-of-react-native-and-how-to-overcome-them-947630d7f440
+- <https://flutter.io/docs/resources/technical-overview>
+- <https://hackernoon.com/whats-revolutionary-about-flutter-946915b09514>
+- <https://medium.com/47billion/flutter-how-does-it-works-6e4c73842e67>
+- <https://medium.com/the-andela-way/why-you-should-give-flutter-some-of-your-attention-22dd7e5cae42>
+- <https://hackernoon.com/flutter-5-reasons-why-you-may-love-it-55021fdbf1aa>
+- <https://medium.com/@talkol/performance-limitations-of-react-native-and-how-to-overcome-them-947630d7f440>
