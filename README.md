@@ -12,6 +12,7 @@ e o lançamento da versão estavel(1.0.0) aconteceu no dia 4 de dezembro de 2018
     
 ## Bridge
 ![Bridge](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/bridge.png)
+
 ## Flutter vs WebViews(Ionic/Cordova)
 
 ![WebViews](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/webview.png)
