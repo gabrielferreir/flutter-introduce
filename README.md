@@ -6,9 +6,13 @@ como objetivo renderizar de forma consistente a 120 fps. O lançamento inicial a
 e o lançamento da versão estavel(1.0.0) aconteceu no dia 4 de dezembro de 2018.
 
 ## Por que Flutter?
-	* Produtividade (Base unica de codigo, Hot reload)
+	* Produtividade (Base unica de codigo, Hot reload, Widgets prontos)
 	* Crie experiencias de usuarios fodas e altamente personalizadas
     * Fluidez
+    
+![Galery](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/galery-animation.gif)
+![Galery](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/galery-posse.gif)
+    
     
 ## Bridge
 ![Bridge](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/bridge.png)
