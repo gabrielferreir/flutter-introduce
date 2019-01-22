@@ -43,6 +43,21 @@ O Flutter utiliza uma abordagem diferente, ele abandona a Brigde e utiliza uma l
 complilada chamada Dart que complila em AOT (ahead of time) codigo nativo para multiplas 
 plataformas.
 
+## Fluter não utiliza os widgets OEM
+
+![Evolution](https://github.com/gabrielferreir/flutter-introduce/raw/master/images/evolution.png)
+
+Os widgets OEM são os widgets nativos de cada interface.
+Porem isso não significa que você tera que criar seus Widgets do zero, Os Widgets de
+ambas as plataformas estão disponiveis para uso somente na versão mais recente do Material Designer.
+
+Isso significa que seus usuario mais atentos podem ter surpresas...
+
+![OEM](https://github.com/gabrielferreir/flutter-introduce/raw/master/images/oem.png)
+
+![Skia](https://github.com/gabrielferreir/flutter-introduce/raw/master/images/skia.png)
+
+
 
 ## Biografia
 
@@ -55,3 +70,4 @@ plataformas.
 - <https://hackernoon.com/why-flutter-uses-dart-dd635a054ebf>
 - <https://medium.com/flutter-io/why-flutter-doesnt-use-oem-widgets-94746e812510>
 - <https://medium.com/flutter-community/flutter-platformview-how-to-create-flutter-widgets-from-native-views-366e378115b6>
+- <https://buildflutter.com/how-flutter-works/>
