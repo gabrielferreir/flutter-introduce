@@ -6,12 +6,32 @@ como objetivo renderizar de forma consistente a 120 fps. O lançamento inicial a
 e o lançamento da versão estavel(1.0.0) aconteceu no dia 4 de dezembro de 2018.
 
 ## Por que Flutter?
-	* Produtividade (Base unica de codigo, Hot reload, Widgets prontos)
-	* Crie experiencias de usuarios fodas e altamente personalizadas
-    * Fluidez
-    
+
+- Produtividade (Base unica de codigo, Hot reload, Widgets prontos)
+
+- Crie experiencias de usuarios fodas e altamente personalizadas
+
+- Fluidez
+   
 ![Galery](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/galery-animation.gif)
 ![Galery](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/galery-posse.gif)
+
+## Dart
+Cogitaram o uso de muitas linguagem no inicio do desenvolvimento do Flutter, entre elas a linguagem que
+se destacou foi a Dart. 
+
+Dart é uma linguagem orientada a objetos, tipada e foi desenvolvida pelo Google tem uma sintaxe que parece
+uma mistura de Java com Javascript, tem uma curva de aprendizado curta para quem já conhece o orientação a objetos. 
+
+``` dart
+void main() {
+  for (int i = 0; i < 5; i++) {
+    print('hello ${i + 1}');
+  }
+}
+```
+
+O Dart ainda pode compilar 
 
 ## Flutter vs WebViews(Ionic/Cordova)
 
@@ -39,7 +59,7 @@ E ambos os dominios são extremamente rapidos. O problema acontece quando esse l
 comunicar, em casos em que são realizadas animações/transicoes esse reinos podem se comunicar ate 60 vezes
 por segundos o que dificulta que o app rode a 60 fps e deixe seu app com uma fluidez legal.
 
-## Flutter
+## Como o Flutter funciona?
 
 ![Flutter](https://github.com/gabrielferreir/flutter-introduce/raw/master/images/flutter.png)
 
