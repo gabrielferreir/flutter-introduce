@@ -9,6 +9,9 @@ e o lançamento da versão estavel(1.0.0) aconteceu no dia 4 de dezembro de 2018
 	* Produtividade (Base unica de codigo, Hot reload)
 	* Crie experiencias de usuarios fodas e altamente personalizadas
     * Fluidez
+    
+## Bridge
+![Bridge](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/bridge.png)
 ## Flutter vs WebViews(Ionic/Cordova)
 
 ![WebViews](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/webview.png)
@@ -36,8 +39,8 @@ por segundos o que dificulta que o app rode a 60 fps e deixe seu app com uma flu
 
 
 O Flutter utiliza uma abordagem diferente, ele abandona a Brigde e utiliza uma linguagem 
-complilada chamada Dart que complila em AOT (ahead of time) em codigo nativo para multiplas 
-plataformas
+complilada chamada Dart que complila em AOT (ahead of time) codigo nativo para multiplas 
+plataformas.
 
 
 ## Biografia
@@ -48,3 +51,6 @@ plataformas
 - <https://medium.com/the-andela-way/why-you-should-give-flutter-some-of-your-attention-22dd7e5cae42>
 - <https://hackernoon.com/flutter-5-reasons-why-you-may-love-it-55021fdbf1aa>
 - <https://medium.com/@talkol/performance-limitations-of-react-native-and-how-to-overcome-them-947630d7f440>
+- <https://hackernoon.com/why-flutter-uses-dart-dd635a054ebf>
+- <https://medium.com/flutter-io/why-flutter-doesnt-use-oem-widgets-94746e812510>
+- <https://medium.com/flutter-community/flutter-platformview-how-to-create-flutter-widgets-from-native-views-366e378115b6>
