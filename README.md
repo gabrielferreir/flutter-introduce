@@ -49,15 +49,21 @@ plataformas.
 
 Os widgets OEM são os widgets nativos de cada interface.
 Porem isso não significa que você tera que criar seus Widgets do zero, Os Widgets de
-ambas as plataformas estão disponiveis para uso somente na versão mais recente do Material Designer.
+ambas as plataformas estarão disponiveis para uso somente na versão mais recente do Material Designer.
 
-Isso significa que seus usuario mais atentos podem ter surpresas...
+##### Isso significa que seus usuario mais atentos podem ter surpresas...
 
 ![OEM](https://github.com/gabrielferreir/flutter-introduce/raw/master/images/oem.png)
 
+#### Como o Flutter renderiza seus Widgets?
+
+Comparado a outros frameworks o Flutter funciona de maneira totalmente diferente dos frameworks tradicionais
+para criação de aplicativos, ele funciona de maneira semelhante a de um mecanismo de jogo.
+
+O Flutter utiliza um mecanismo chamado Skia que recebe seus Widgets e envia as informações diretamente para o
+canvas da plataforma e a plataforma retorna os eventos conforme necessario.
+
 ![Skia](https://github.com/gabrielferreir/flutter-introduce/raw/master/images/skia.png)
-
-
 
 ## Biografia
 
