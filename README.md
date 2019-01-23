@@ -31,7 +31,17 @@ void main() {
 }
 ```
 
-O Dart ainda pode compilar 
+O Dart ainda pode compilar para codigo nativo em AOT (Ahead Of Time) e em JIT (Just In Time).
+
+O AOT permite que seu app seja compilado no código nativo de cada plataforma antes da execução fazendo com 
+que o app inicie rapidamente. E o JIT faz com que o HotReload seja possivel, fazendo com que seu aplicativa seja re-compilado 
+em tempo de execução e que mantenha o estado de desenvolvimento, isso faz com que a suas variaveis não percam o valor 
+enquanto seu app é executado na fase de desenvolvimento.
+
+![HotReload](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/hotreload.png)
+
+ que é extremamente util 
+no desenvolvimento e faz com que o HotReload seja possivel. 
 
 ## Flutter vs WebViews(Ionic/Cordova)
 
@@ -43,7 +53,9 @@ dominio nativo quando for necessario acessar algum dos serviços internos como p
 Bluetooth e etc. 
 
 ## Ponte(Bridge)
+
 ![Bridge](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/bridge.png)
+
 A ponte trabalha de maneira semelhante a de WebSocket que envia e recebe informações e esse fluxo acontece de ambos os
 lados, enviando dados do seu codigo Javascript e recebendo dados da sua plataforma nativa.  
 
