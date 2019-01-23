@@ -38,7 +38,7 @@ que o app inicie rapidamente. E o JIT faz com que o HotReload seja possivel, faz
 em tempo de execução e que mantenha o estado de desenvolvimento, isso faz com que a suas variaveis não percam o valor 
 enquanto seu app é executado na fase de desenvolvimento.
 
-![HotReload](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/hotreload.png)
+![HotReload](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/hotreload.gif)
 
  que é extremamente util 
 no desenvolvimento e faz com que o HotReload seja possivel. 
