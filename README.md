@@ -40,9 +40,6 @@ enquanto seu app é executado na fase de desenvolvimento.
 
 ![HotReload](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/hotreload.gif)
 
- que é extremamente util 
-no desenvolvimento e faz com que o HotReload seja possivel. 
-
 ## Flutter vs WebViews(Ionic/Cordova)
 
 ![WebViews](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/webview.png)
