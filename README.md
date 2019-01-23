@@ -13,9 +13,12 @@ e o lançamento da versão estavel(1.0.0) aconteceu no dia 4 de dezembro de 2018
 
 - Fluidez
    
+<div style="text-align: center">
+
 ![Galery](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/galery-animation.gif)
 ![Galery](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/galery-posse.gif)
 
+</div>
 ## Dart
 Cogitaram o uso de muitas linguagem no inicio do desenvolvimento do Flutter, entre elas a linguagem que
 se destacou foi a Dart. 
@@ -35,7 +38,11 @@ O Dart ainda pode compilar
 
 ## Flutter vs WebViews(Ionic/Cordova)
 
+<div style="text-align: center">
+
 ![WebViews](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/webview.png)
+
+</div>
 
 As WebViews renderizam paginas web e executam o seu codigo HTML/CSS/Javascript e como o Javascript não se 
 comunica diretamente com o codigo nativo eles passam por uma ponte(Bridge) e é essa ponte que ira se comunicar com o 
@@ -43,13 +50,22 @@ dominio nativo quando for necessario acessar algum dos serviços internos como p
 Bluetooth e etc. 
 
 ## Ponte(Bridge)
+
+<div style="text-align: center">
+
 ![Bridge](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/bridge.png)
+
+</div>
+
 A ponte trabalha de maneira semelhante a de WebSocket que envia e recebe informações e esse fluxo acontece de ambos os
 lados, enviando dados do seu codigo Javascript e recebendo dados da sua plataforma nativa.  
 
 ## Flutter vs React Native?
+<div style="text-align: center">
 
 ![reactive-views](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/reactive-views.png)
+
+</div>
 
 Com o React-native não é diferente, ele não se comunica diretamente com o dominio nativo.
 Mesmo que a maior parte do codigo do app seja escrito em Javascript a interface do usuario
@@ -57,7 +73,7 @@ Mesmo que a maior parte do codigo do app seja escrito em Javascript a interface 
 
 O react native trabalha em dois dominos diferentes o dominio nativo e o dominio do JS.
 E ambos os dominios são extremamente rapidos. O problema acontece quando esses lados precisam se
-comunicar. Quando acontece uma alteração na arvore de Widgets do seu App o Flutter envia essas alterações
+comunicar. Quando acontece uma alteração na arvore de Widgets do seu App ele envia essas alterações
 para a ponte que as envia para a plataforma nativa e ela acessa os seus Widgets nativos e re-cria a sua interface,
 em casos em que são realizadas animações/transicoes esse reinos podem se comunicar ate 60 vezes
 por segundos o que dificulta que o app rode a 60 fps e deixe seu app com uma fluidez legal.
@@ -65,7 +81,9 @@ por segundos o que dificulta que o app rode a 60 fps e deixe seu app com uma flu
 
 ## Como o Flutter funciona?
 
-![Flutter](https://github.com/gabrielferreir/flutter-introduce/raw/master/images/flutter.png)
+<div style="text-align: center">
+    ![Flutter](https://github.com/gabrielferreir/flutter-introduce/raw/master/images/flutter.png)
+</div>
 
 
 O Flutter utiliza uma abordagem diferente, ele abandona a Brigde e utiliza uma linguagem 
@@ -81,11 +99,19 @@ para criação de aplicativos, ele funciona de maneira semelhante a de um mecani
 O Flutter utiliza um mecanismo chamado Skia que recebe seus Widgets e envia as informações diretamente para o
 canvas da plataforma e a plataforma retorna os eventos conforme necessario.
 
-![Skia](https://github.com/gabrielferreir/flutter-introduce/raw/master/images/skia.png) 
+<div style="text-align: center">
+
+![Skia](https://github.com/gabrielferreir/flutter-introduce/raw/master/images/skia.png)
+ 
+</div>
 
 ## Fluter não utiliza os widgets OEM
 
+<div style="text-align: center">
+
 ![Evolution](https://github.com/gabrielferreir/flutter-introduce/raw/master/images/evolution.png)
+
+</div>
 
 Os widgets OEM são os widgets nativos de cada interface.
 Porem isso não significa que você tera que criar seus Widgets do zero, Os Widgets de
@@ -93,7 +119,11 @@ ambas as plataformas estarão disponiveis para uso somente na versão mais recen
 
 ##### Isso significa que seus usuario mais atentos podem ter surpresas...
 
+<div style="text-align: center">
+
 ![OEM](https://github.com/gabrielferreir/flutter-introduce/raw/master/images/oem.png)
+
+</div>
 
 
 ## Biografia
