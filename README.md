@@ -20,8 +20,9 @@ e o lançamento da versão estavel(1.0.0) aconteceu no dia 4 de dezembro de 2018
 Cogitaram o uso de muitas linguagem no inicio do desenvolvimento do Flutter, entre elas a linguagem que
 se destacou foi a Dart. 
 
-Dart é uma linguagem orientada a objetos, tipada e foi desenvolvida pelo Google tem uma sintaxe que parece
-uma mistura de Java com Javascript, tem uma curva de aprendizado curta para quem já conhece o orientação a objetos. 
+Dart é uma linguagem orientada a objetos, tipada e foi desenvolvida pelo Google, possui uma sintaxe que parecida
+com Java, Javascript. Então se você tem conhecimento em alguma dessas linguagens orientação a objetos Dart não sera 
+um problema.
 
 ``` dart
 void main() {
@@ -34,9 +35,9 @@ void main() {
 O Dart ainda pode compilar para codigo nativo em AOT (Ahead Of Time) e em JIT (Just In Time).
 
 O AOT permite que seu app seja compilado no código nativo de cada plataforma antes da execução fazendo com 
-que o app inicie rapidamente. E o JIT faz com que o HotReload seja possivel, fazendo com que seu aplicativa seja re-compilado 
-em tempo de execução e que mantenha o estado de desenvolvimento, isso faz com que a suas variaveis não percam o valor 
-enquanto seu app é executado na fase de desenvolvimento.
+que o app inicie rapidamente. E o JIT torna HotReload possível, fazendo com que sua aplicação seja recompilada
+em tempo de execução e que mantenha o estado de desenvolvimento, e como resultado isso faz com que suas variáveis não percam o valor 
+enquanto seu app é recarregado na fase de desenvolvimento.
 
 ![HotReload](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/hotreload.gif)
 
@@ -53,7 +54,7 @@ Bluetooth e etc.
 
 ![Bridge](https://github.com/gabrielferreir/flutter-introduce/blob/master/images/bridge.png)
 
-A ponte trabalha de maneira semelhante a de WebSocket que envia e recebe informações e esse fluxo acontece de ambos os
+A ponte trabalha de maneira semelhante a de um WebSocket que envia e recebe informações e esse fluxo acontece de ambos os
 lados, enviando dados do seu codigo Javascript e recebendo dados da sua plataforma nativa.  
 
 ## Flutter vs React Native?
@@ -64,11 +65,11 @@ Com o React-native não é diferente, ele não se comunica diretamente com o dom
 Mesmo que a maior parte do codigo do app seja escrito em Javascript a interface do usuario
 é 100% nativa.
 
-O react native trabalha em dois dominos diferentes o dominio nativo e o dominio do JS.
-E ambos os dominios são extremamente rapidos. O problema acontece quando esses lados precisam se
-comunicar. Quando acontece uma alteração na arvore de Widgets do seu App ele envia essas alterações
-para a ponte que as envia para a plataforma nativa e ela acessa os seus Widgets nativos e re-cria a sua interface,
-em casos em que são realizadas animações/transicoes esse reinos podem se comunicar ate 60 vezes
+O React Native trabalha em dois domínios diferentes o domínio nativo e o domínio do JS. 
+E ambos os domínios são extremamente rápidos. O problema acontece quando esses lados precisam se 
+comunicar. Quando acontece uma alteração na arvore de Widgets do seu App ele envia essas alterações 
+para a ponte que as envia para a plataforma nativa e ela acessa os seus Widgets nativos e recria a sua interface, 
+em casos em que são realizadas animações/transições entre esses reinos podem se comunicar ate 60 vezes 
 por segundos o que dificulta que o app rode a 60 fps e deixe seu app com uma fluidez legal.
 
 
@@ -78,17 +79,17 @@ por segundos o que dificulta que o app rode a 60 fps e deixe seu app com uma flu
 
 
 O Flutter utiliza uma abordagem diferente, ele abandona a Brigde e utiliza uma linguagem 
-complilada chamada Dart que complila em AOT (ahead of time) codigo nativo para multiplas 
+compilada chamada Dart que compila em AOT (ahead of time) código nativo para múltiplas 
 plataformas.
 
-Ele trás para si a responsibalidade de analisar e renderizar os Widgets e envia pra ponte somente
-o que a GPU precisa para renderizar o seus Widgets.
+Ele trás para si a responsabilidade de analisar e renderizar os Widgets e envia para ponte somente 
+o que a GPU precisa para renderizar o seus Widgets. 
 
-Comparado a outros frameworks o Flutter funciona de maneira totalmente diferente dos frameworks tradicionais
+Comparado a outros frameworks o Flutter funciona de maneira totalmente diferente dos frameworks tradicionais 
 para criação de aplicativos, ele funciona de maneira semelhante a de um mecanismo de jogo.
 
-O Flutter utiliza um mecanismo chamado Skia que recebe seus Widgets e envia as informações diretamente para o
-canvas da plataforma e a plataforma retorna os eventos conforme necessario.
+O Flutter utiliza um mecanismo chamado Skia que recebe seus Widgets e envia as informações diretamente para o 
+canvas da plataforma e a plataforma retorna os eventos conforme necessário.
 
 ![Skia](https://github.com/gabrielferreir/flutter-introduce/raw/master/images/skia.png) 
 
@@ -96,9 +97,9 @@ canvas da plataforma e a plataforma retorna os eventos conforme necessario.
 
 ![Evolution](https://github.com/gabrielferreir/flutter-introduce/raw/master/images/evolution.png)
 
-Os widgets OEM são os widgets nativos de cada interface.
-Porem isso não significa que você tera que criar seus Widgets do zero, Os Widgets de
-ambas as plataformas estarão disponiveis para uso somente na versão mais recente do Material Designer.
+Os widgets OEM são os widgets nativos de cada interface. 
+Porem isso não significa que você terá que criar seus Widgets do zero, Os Widgets de 
+ambas as plataformas estarão disponíveis para uso somente na versão mais recente do Material Designer.
 
 ##### Isso significa que seus usuario mais atentos podem ter surpresas...
 
